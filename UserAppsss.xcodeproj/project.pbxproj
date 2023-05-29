@@ -9,21 +9,27 @@
 /* Begin PBXBuildFile section */
 		52ACBFF02A2534540034330C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACBFEF2A2534540034330C /* AppDelegate.swift */; };
 		52ACBFF22A2534540034330C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACBFF12A2534540034330C /* SceneDelegate.swift */; };
-		52ACBFF42A2534540034330C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACBFF32A2534540034330C /* ViewController.swift */; };
 		52ACBFF72A2534540034330C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ACBFF52A2534540034330C /* Main.storyboard */; };
 		52ACBFF92A2534550034330C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 52ACBFF82A2534550034330C /* Assets.xcassets */; };
 		52ACBFFC2A2534550034330C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 52ACBFFA2A2534550034330C /* LaunchScreen.storyboard */; };
+		52ACC0042A25350C0034330C /* UserTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACC0032A25350C0034330C /* UserTableViewController.swift */; };
+		52ACC0062A2537210034330C /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACC0052A2537210034330C /* User.swift */; };
+		52ACC0082A2537EC0034330C /* UserStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACC0072A2537EC0034330C /* UserStore.swift */; };
+		52ACC00A2A2541140034330C /* UserDeteilsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52ACC0092A2541140034330C /* UserDeteilsViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		52ACBFEC2A2534540034330C /* UserAppsss.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UserAppsss.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		52ACBFEF2A2534540034330C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		52ACBFF12A2534540034330C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		52ACBFF32A2534540034330C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		52ACBFF62A2534540034330C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		52ACBFF82A2534550034330C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		52ACBFFB2A2534550034330C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		52ACBFFD2A2534550034330C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		52ACC0032A25350C0034330C /* UserTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserTableViewController.swift; sourceTree = "<group>"; };
+		52ACC0052A2537210034330C /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
+		52ACC0072A2537EC0034330C /* UserStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserStore.swift; sourceTree = "<group>"; };
+		52ACC0092A2541140034330C /* UserDeteilsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserDeteilsViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,9 +62,12 @@
 		52ACBFEE2A2534540034330C /* UserAppsss */ = {
 			isa = PBXGroup;
 			children = (
+				52ACC0032A25350C0034330C /* UserTableViewController.swift */,
 				52ACBFEF2A2534540034330C /* AppDelegate.swift */,
+				52ACC0052A2537210034330C /* User.swift */,
+				52ACC0072A2537EC0034330C /* UserStore.swift */,
+				52ACC0092A2541140034330C /* UserDeteilsViewController.swift */,
 				52ACBFF12A2534540034330C /* SceneDelegate.swift */,
-				52ACBFF32A2534540034330C /* ViewController.swift */,
 				52ACBFF52A2534540034330C /* Main.storyboard */,
 				52ACBFF82A2534550034330C /* Assets.xcassets */,
 				52ACBFFA2A2534550034330C /* LaunchScreen.storyboard */,
@@ -138,8 +147,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				52ACBFF42A2534540034330C /* ViewController.swift in Sources */,
+				52ACC00A2A2541140034330C /* UserDeteilsViewController.swift in Sources */,
+				52ACC0062A2537210034330C /* User.swift in Sources */,
+				52ACC0082A2537EC0034330C /* UserStore.swift in Sources */,
 				52ACBFF02A2534540034330C /* AppDelegate.swift in Sources */,
+				52ACC0042A25350C0034330C /* UserTableViewController.swift in Sources */,
 				52ACBFF22A2534540034330C /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
